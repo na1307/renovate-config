@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assignees": [
+    "na1307"
+  ],
+  "reviewers": [
+    "na1307"
+  ],
+  "assignAutomerge": false,
+  "timezone": "Asia/Seoul",
+  "schedule": [
+    "* 9 * * 3"
+  ],
+  "automerge": false,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "platformAutomerge": false,
+  "packageRules": [
+    {
+      "matchManagers": [
+        "*"
+      ],
+      "enabled": false
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "vulnerabilityAlerts": {
+    "enabled": false
+  }
+}

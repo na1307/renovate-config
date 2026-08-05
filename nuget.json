@@ -1,0 +1,88 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "na1307/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "enabled": true
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget",
+        "msbuild-sdk"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "NuGet Packages Update",
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "matchPackageNames": [
+        "Microsoft.*",
+        "System.*"
+      ],
+      "groupName": "Microsoft NuGet Packages Major Update"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "matchPackageNames": [
+        "Bluehill.*"
+      ],
+      "groupName": "Bluehill NuGet Packages Major Update"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "dotnet-sdk"
+      ],
+      "groupName": ".NET SDK Update",
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "automerge": false
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "dotnet-sdk"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false
+    }
+  ]
+}
