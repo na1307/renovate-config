@@ -3,86 +3,91 @@
   "packageRules": [
     {
       "matchManagers": [
-        "nuget"
+        "npm"
       ],
       "matchDepTypes": [
-        "nuget",
-        "msbuild-sdk",
-        "dotnet-sdk"
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "peerDependencies",
+        "packageManager",
+        "pnpm"
       ],
       "enabled": true
     },
     {
       "matchManagers": [
-        "nuget"
+        "npm"
       ],
       "matchDepTypes": [
-        "nuget",
-        "msbuild-sdk"
+        "dependencies",
+        "optionalDependencies",
+        "pnpm"
       ],
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "groupName": "NuGet Dependencies Update",
+      "groupName": "npm Dependencies Update",
       "automerge": true
     },
     {
       "matchManagers": [
-        "nuget"
+        "npm"
       ],
       "matchDepTypes": [
-        "nuget"
+        "peerDependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm Peer Dependencies Update",
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm Development Dependencies Update",
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "packageManager"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "package.json packageManager Update",
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "npm"
       ],
       "matchUpdateTypes": [
         "major"
       ],
-      "matchPackageNames": [
-        "Microsoft.*",
-        "System.*"
-      ],
-      "groupName": "Microsoft NuGet Dependencies Major Update"
-    },
-    {
-      "matchManagers": [
-        "nuget"
-      ],
-      "matchDepTypes": [
-        "nuget"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "matchPackageNames": [
-        "Bluehill.*"
-      ],
-      "groupName": "Bluehill NuGet Dependencies Major Update"
-    },
-    {
-      "matchManagers": [
-        "nuget"
-      ],
-      "matchDepTypes": [
-        "dotnet-sdk"
-      ],
-      "groupName": ".NET SDK Update",
       "automerge": false
     },
     {
       "matchManagers": [
-        "nuget"
+        "npm"
       ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "automerge": false
-    },
-    {
-      "matchManagers": [
-        "nuget"
-      ],
-      "matchDepTypes": [
-        "dotnet-sdk"
+      "matchDepNames": [
+        "@types/node"
       ],
       "matchUpdateTypes": [
         "major"

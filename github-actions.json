@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDepTypes": [
+        "action"
+      ],
+      "enabled": true,
+      "groupName": "GitHub Actions Update"
+    }
+  ]
+}
