@@ -24,7 +24,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "Gradle Dependencies Update",
+      "groupName": "Gradle Dependencies",
       "automerge": true
     },
     {
@@ -38,7 +38,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "Gradle Development Dependencies Update",
+      "groupName": "Gradle Development Dependencies",
       "automerge": true
     },
     {
@@ -52,7 +52,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "Gradle Test Dependencies Update",
+      "groupName": "Gradle Test Dependencies",
       "automerge": true
     },
     {
@@ -66,7 +66,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "Gradle Plugins Update",
+      "groupName": "Gradle Plugins",
       "automerge": true
     },
     {
@@ -85,7 +85,7 @@
       "matchDepTypes": [
         "plugin"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "com.android.application",
         "com.android.library"
       ],

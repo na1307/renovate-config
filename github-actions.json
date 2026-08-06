@@ -9,7 +9,7 @@
         "action"
       ],
       "enabled": true,
-      "groupName": "GitHub Actions Update",
+      "groupName": "GitHub Actions",
       "automerge": true
     }
   ]

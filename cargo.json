@@ -15,7 +15,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "Cargo Dependencies Update",
+      "groupName": "Cargo Dependencies",
       "automerge": true
     },
     {

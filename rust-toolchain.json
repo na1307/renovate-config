@@ -9,7 +9,7 @@
         "toolchain"
       ],
       "enabled": true,
-      "groupName": "Rust Toolchain Update",
+      "groupName": "Rust Toolchain",
       "automerge": true
     }
   ]

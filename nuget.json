@@ -24,7 +24,7 @@
         "minor",
         "patch"
       ],
-      "groupName": "NuGet Dependencies Update",
+      "groupName": "NuGet Dependencies",
       "automerge": true
     },
     {
@@ -37,11 +37,11 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "Microsoft.*",
         "System.*"
       ],
-      "groupName": "Microsoft NuGet Dependencies Major Update"
+      "groupName": "Microsoft NuGet Dependencies Major"
     },
     {
       "matchManagers": [
@@ -53,10 +53,10 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "Bluehill.*"
       ],
-      "groupName": "Bluehill NuGet Dependencies Major Update"
+      "groupName": "Bluehill NuGet Dependencies Major"
     },
     {
       "matchManagers": [
@@ -65,7 +65,7 @@
       "matchDepTypes": [
         "dotnet-sdk"
       ],
-      "groupName": ".NET SDK Update",
+      "groupName": ".NET SDK",
       "automerge": false
     },
     {
