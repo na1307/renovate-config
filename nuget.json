@@ -48,9 +48,47 @@
         "nuget"
       ],
       "matchDepNames": [
+        "CommunityToolkit.*"
+      ],
+      "groupName": "Community Toolkit NuGet Dependencies"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
+      ],
+      "matchDepNames": [
+        "Avalonia",
         "Avalonia.*"
       ],
       "groupName": "Avalonia NuGet Dependencies"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
+      ],
+      "matchDepNames": [
+        "Spectre.Console",
+        "Spectre.Console.*"
+      ],
+      "groupName": "Spectre.Console NuGet Dependencies"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
+      ],
+      "matchDepNames": [
+        "Roslynator.*"
+      ],
+      "groupName": "Roslynator NuGet Dependencies"
     },
     {
       "matchManagers": [

@@ -73,6 +73,32 @@
       "matchManagers": [
         "gradle"
       ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "test"
+      ],
+      "matchDepNames": [
+        "androidx.*"
+      ],
+      "groupName": "AndroidX Gradle Dependencies"
+    },
+    {
+      "matchManagers": [
+        "gradle"
+      ],
+      "matchDepTypes": [
+        "plugin"
+      ],
+      "matchDepNames": [
+        "org.jetbrains.kotlin.*"
+      ],
+      "groupName": "Kotlin Gradle Plugins"
+    },
+    {
+      "matchManagers": [
+        "gradle"
+      ],
       "matchUpdateTypes": [
         "major"
       ],
@@ -86,8 +112,7 @@
         "plugin"
       ],
       "matchDepNames": [
-        "com.android.application",
-        "com.android.library"
+        "com.android.*"
       ],
       "enabled": false
     }

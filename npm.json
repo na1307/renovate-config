@@ -77,6 +77,81 @@
       "matchManagers": [
         "npm"
       ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "pnpm"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/DefinitelyTyped/DefinitelyTyped"
+      ],
+      "groupName": "DefinitelyTyped npm Dependencies"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "pnpm"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/sveltejs/*"
+      ],
+      "groupName": "Svelte npm Dependencies"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "pnpm"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/withastro/*"
+      ],
+      "groupName": "Astro npm Dependencies"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "pnpm"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/vitejs/*"
+      ],
+      "groupName": "Vite npm Dependencies"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "pnpm"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/vitest-dev/*"
+      ],
+      "groupName": "Vitest npm Dependencies"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
       "matchUpdateTypes": [
         "major"
       ],

@@ -22,6 +22,24 @@
       "matchManagers": [
         "cargo"
       ],
+      "matchSourceUrls": [
+        "https://github.com/serde-rs/*"
+      ],
+      "groupName": "serde-rs Cargo Dependencies"
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/microsoft/windows-rs"
+      ],
+      "groupName": "windows-rs Cargo Dependencies"
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
       "matchUpdateTypes": [
         "major"
       ],
