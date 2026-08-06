@@ -3,13 +3,13 @@
   "packageRules": [
     {
       "matchManagers": [
-        "github-actions"
+        "rust-toolchain"
       ],
       "matchDepTypes": [
-        "action"
+        "toolchain"
       ],
       "enabled": true,
-      "groupName": "GitHub Actions Update",
+      "groupName": "Rust Toolchain Update",
       "automerge": true
     }
   ]

@@ -3,37 +3,33 @@
   "packageRules": [
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchDepTypes": [
         "dependencies",
         "devDependencies",
-        "optionalDependencies",
-        "peerDependencies",
-        "packageManager",
-        "pnpm"
+        "test",
+        "plugin"
       ],
       "enabled": true
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchDepTypes": [
-        "dependencies",
-        "optionalDependencies",
-        "pnpm"
+        "dependencies"
       ],
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "groupName": "npm Dependencies Update",
+      "groupName": "Gradle Dependencies Update",
       "automerge": true
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchDepTypes": [
         "devDependencies"
@@ -42,40 +38,40 @@
         "minor",
         "patch"
       ],
-      "groupName": "npm Development Dependencies Update",
+      "groupName": "Gradle Development Dependencies Update",
       "automerge": true
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchDepTypes": [
-        "peerDependencies"
+        "test"
       ],
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "groupName": "npm Peer Dependencies Update",
+      "groupName": "Gradle Test Dependencies Update",
       "automerge": true
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchDepTypes": [
-        "packageManager"
+        "plugin"
       ],
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "groupName": "Corepack packageManager Update",
+      "groupName": "Gradle Plugins Update",
       "automerge": true
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
       ],
       "matchUpdateTypes": [
         "major"
@@ -84,13 +80,14 @@
     },
     {
       "matchManagers": [
-        "npm"
+        "gradle"
+      ],
+      "matchDepTypes": [
+        "plugin"
       ],
       "matchPackageNames": [
-        "@types/node"
-      ],
-      "matchUpdateTypes": [
-        "major"
+        "com.android.application",
+        "com.android.library"
       ],
       "enabled": false
     }

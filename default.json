@@ -9,7 +9,7 @@
   "assignAutomerge": false,
   "timezone": "Asia/Seoul",
   "schedule": [
-    "* 8-11 * * 3"
+    "* 9-20 * * 3"
   ],
   "automerge": false,
   "automergeType": "pr",

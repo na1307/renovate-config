@@ -1,4 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-inherited-schema.json",
-  "onboarding": false
+  "onboarding": false,
+  "extends": [
+    "na1307/renovate-config"
+  ]
 }

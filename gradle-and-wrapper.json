@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "na1307/renovate-config:gradle",
+    "na1307/renovate-config:gradle-wrapper"
+  ]
+}
