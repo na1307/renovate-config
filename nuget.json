@@ -34,14 +34,11 @@
       "matchDepTypes": [
         "nuget"
       ],
-      "matchUpdateTypes": [
-        "major"
-      ],
       "matchDepNames": [
         "Microsoft.*",
         "System.*"
       ],
-      "groupName": "Microsoft NuGet Dependencies Major"
+      "groupName": "Microsoft NuGet Dependencies"
     },
     {
       "matchManagers": [
@@ -50,13 +47,22 @@
       "matchDepTypes": [
         "nuget"
       ],
-      "matchUpdateTypes": [
-        "major"
+      "matchDepNames": [
+        "Avalonia.*"
+      ],
+      "groupName": "Avalonia NuGet Dependencies"
+    },
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchDepTypes": [
+        "nuget"
       ],
       "matchDepNames": [
         "Bluehill.*"
       ],
-      "groupName": "Bluehill NuGet Dependencies Major"
+      "groupName": "Bluehill NuGet Dependencies"
     },
     {
       "matchManagers": [
